@@ -12,9 +12,9 @@ export const styles = StyleSheet.create({
   },
 
   primaryButton: {
-    backgroundColor: 'blue',
+    backgroundColor: '#dadada',
     padding: 10,
-    borderRadius: 5,
+    borderRadius: 10,
     marginVertical: 10,
   },
 });
