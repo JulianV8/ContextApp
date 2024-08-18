@@ -1,13 +1,13 @@
 import {create} from 'zustand';
 
-export interface ProfileStore {
+export interface ProfileState {
   name: string;
   email: string;
 
   changeProfile: (name: string, email: string) => void;
 }
 
-export const useProfileStore = create<ProfileStore>()((set, get) => ({
+export const useProfileStore = create<ProfileState>()((set, get) => ({
   name: 'Julian Vasquez',
   email: 'julian_djv@hotmail.com',
 

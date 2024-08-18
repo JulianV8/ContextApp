@@ -1,7 +1,7 @@
 import React from 'react';
 import {Pressable, Text, View} from 'react-native';
 import {styles} from '../../../config';
-import {useProfileStore} from '../../stores/ProfileStore';
+import {useProfileStore} from '../../stores/profile-store';
 
 export const ProfileScreen = () => {
   const name = useProfileStore(state => state.name);
